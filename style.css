@@ -4,10 +4,24 @@
     box-sizing: border-box;
 }
 
+header h1,
+section h2 {
+    font-family: 'bungee', cursive;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 header {
     padding: 16px 0;
     background-color: blue;
     color: blanchedalmond;
+}
+
+head h1,
+section h2 {
+    font-weight: normal;
 }
 
 header nav li {
@@ -27,25 +41,19 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header .container, section .container {
+header .container, 
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .brands-list img {
-    height: 24px;
+    height: 30px;
 }
 
 .brands-list li {
     display: inline;
-    margin-right: 8px;
 }
 
 section .container {
@@ -68,9 +76,14 @@ section p {
     margin-bottom: 8px;
 }
 
+
 .store-front {
     width: 500px;
     height: auto;
+    margin-right: 32px;
+}
+
+.social-links img {
     margin-right: 32px;
 }
 
@@ -78,7 +91,7 @@ section p {
     display: block;
 }
 
-.container-methods {
+.contact-methods {
     display: flex;
     justify-content: space-between;
 }
@@ -113,14 +126,16 @@ input:focus, textarea:focus {
 }
 
 .social-links img {
-    height: 24px;
+    height: 25px;
+    margin-right: 2px;
 }
 
 .social-links li {
     display: inline;
-    margin-right: 8px;
 }
 
 .social-links li a {
     text-decoration: none;
 }
+
+
